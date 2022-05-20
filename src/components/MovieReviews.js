@@ -16,8 +16,7 @@ const MovieReviews = ({ reviews }) => (
             <h4>By: {review.byline} </h4>
             <h4>Date: {review.publication_date}</h4>
             <p> {review.summary_short}</p>
-            <a href={review.link.url} target="_blank" >Full Review</a>
-            {/* <br>{console.log(review.multimedia.src)}</br> */}
+            <a href={review.link.url} target="_blank" rel='noopener noreferrer' >Full Review</a>
             <br></br>
         </div>
         

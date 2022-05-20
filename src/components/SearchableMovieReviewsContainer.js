@@ -4,7 +4,7 @@ import MovieReviews from './MovieReviews'
 
 const NYT_API_KEY = 'te8PXGDLuAOjYpyEjzPYNidXjJY6SGhi';
 const URL = 'https://api.nytimes.com/svc/movies/v2/reviews/search.json?'
-            + `api-key=${NYT_API_KEY}` + `&query=`;
+            + `api-key=${NYT_API_KEY}&query=`;
 
             //https://api.nytimes.com/svc/movies/v2/reviews/search.json?api-key=te8PXGDLuAOjYpyEjzPYNidXjJY6SGhi
 // Code SearchableMovieReviewsContainer Here
