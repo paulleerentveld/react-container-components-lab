@@ -19,8 +19,6 @@ const MovieReviews = ({ reviews }) => (
             <a href={review.link.url} target="_blank" rel='noopener noreferrer' >Full Review</a>
             <br></br>
         </div>
-        
-        
     }) }
   </div>
 )

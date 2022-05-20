@@ -28,7 +28,6 @@ class SearchableMovieReviewsContainer extends Component {
         event.preventDefault()
         fetch(URL+this.state.searchTerm)
           .then(response => response.json())
-          //.then(data => console.log(data.results))
           .then(data => 
             this.setState({ reviews: data.results }))
       }
@@ -38,7 +37,6 @@ class SearchableMovieReviewsContainer extends Component {
     }
     
       render() {
-          // return <BookList books={this.state.books} />
         return (
             <div>
                 <form onSubmit={event => this.fetchSearchReviews(event)}>
